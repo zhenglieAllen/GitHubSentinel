@@ -1,0 +1,43 @@
+[I 2025-03-29 16:15:20.231 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-03-29 16:15:20.232 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[W 2025-03-29 16:15:20.233 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-03-29 16:15:20.234 ServerApp] ServerApp.token config is deprecated in 2.0. Use IdentityProvider.token.
+[I 2025-03-29 16:15:20.234 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-03-29 16:15:20.371 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-03-29 16:15:20.387 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-03-29 16:15:20.387 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-03-29 16:15:20.388 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-03-29 16:15:20.389 LabApp] JupyterLab extension loaded from /opt/anaconda3/envs/langchain/lib/python3.10/site-packages/jupyterlab
+[I 2025-03-29 16:15:20.389 LabApp] JupyterLab application directory is /opt/anaconda3/envs/langchain/share/jupyter/lab
+[I 2025-03-29 16:15:20.389 LabApp] Extension Manager is 'pypi'.
+[I 2025-03-29 16:15:20.430 LabApp] Extensions will be fetched using proxy, proxy host and port: ('127.0.0.1', '7890')
+[I 2025-03-29 16:15:20.431 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-03-29 16:15:20.431 ServerApp] The port 8000 is already in use, trying another port.
+[I 2025-03-29 16:15:20.432 ServerApp] The port 8001 is already in use, trying another port.
+[I 2025-03-29 16:15:20.432 ServerApp] Serving notebooks from local directory: /Users/zhenglie/myAI/GitHubSentinel
+[I 2025-03-29 16:15:20.432 ServerApp] Jupyter Server 2.15.0 is running at:
+[I 2025-03-29 16:15:20.432 ServerApp] http://localhost:8002/lab?token=...
+[I 2025-03-29 16:15:20.432 ServerApp]     http://127.0.0.1:8002/lab?token=...
+[I 2025-03-29 16:15:20.432 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-03-29 16:15:20.580 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2025-03-29 16:15:22.976 ServerApp] 404 GET /api/contents/jupyter?content=0&hash=0&1743236122975 (f5bce978dfcd45318e4c75258d8bbf8c@::1) 0.70ms referer=http://localhost:8002/lab
+[W 2025-03-29 16:15:22.976 ServerApp] 404 GET /api/contents/jupyter?content=0&hash=0&1743236122975 (::1): No such file or directory: jupyter
+[W 2025-03-29 16:15:22.978 ServerApp] 404 GET /api/contents/jupyter/flask_client.ipynb?content=0&hash=0&1743236122975 (f5bce978dfcd45318e4c75258d8bbf8c@::1) 0.63ms referer=http://localhost:8002/lab
+[W 2025-03-29 16:15:22.978 ServerApp] 404 GET /api/contents/jupyter/flask_client.ipynb?content=0&hash=0&1743236122975 (::1): No such file or directory: jupyter/flask_client.ipynb
+[W 2025-03-29 16:15:22.979 ServerApp] 404 GET /api/contents/jupyter/flask_client.ipynb?content=0&hash=0&1743236122975 (f5bce978dfcd45318e4c75258d8bbf8c@::1) 1.24ms referer=http://localhost:8002/lab
+[W 2025-03-29 16:15:22.979 ServerApp] 404 GET /api/contents/jupyter/flask_client.ipynb?content=0&hash=0&1743236122975 (::1): No such file or directory: jupyter/flask_client.ipynb
+[W 2025-03-29 16:15:22.979 ServerApp] 404 GET /api/contents/jupyter/flask_client.ipynb?content=0&hash=0&1743236122975 (f5bce978dfcd45318e4c75258d8bbf8c@::1) 1.60ms referer=http://localhost:8002/lab
+[W 2025-03-29 16:15:22.979 ServerApp] 404 GET /api/contents/jupyter/flask_client.ipynb?content=0&hash=0&1743236122975 (::1): No such file or directory: jupyter/flask_client.ipynb
+[I 2025-03-29 16:15:23.048 LabApp] Build is up to date
+[W 2025-03-29 16:15:24.030 ServerApp] 404 GET /api/contents/jupyter?1743236124026 (f5bce978dfcd45318e4c75258d8bbf8c@::1) 1.50ms referer=http://localhost:8002/lab
+[W 2025-03-29 16:15:24.030 ServerApp] 404 GET /api/contents/jupyter?1743236124026 (::1): No such file or directory: jupyter
+[W 2025-03-29 16:15:31.338 ServerApp] Notebook src/jupyter/report_generator.ipynb is not trusted
+[I 2025-03-29 16:15:31.637 ServerApp] Kernel started: a4c78fb7-1ce5-4801-a3e0-b96df970d072
+[I 2025-03-29 16:15:31.924 ServerApp] Connecting to kernel a4c78fb7-1ce5-4801-a3e0-b96df970d072.
+[I 2025-03-29 16:15:31.925 ServerApp] Connecting to kernel a4c78fb7-1ce5-4801-a3e0-b96df970d072.
+[I 2025-03-29 16:15:31.926 ServerApp] Connecting to kernel a4c78fb7-1ce5-4801-a3e0-b96df970d072.
+[I 2025-03-29 16:15:34.640 ServerApp] Kernel restarted: a4c78fb7-1ce5-4801-a3e0-b96df970d072
+[I 2025-03-29 16:15:34.642 ServerApp] Starting buffering for a4c78fb7-1ce5-4801-a3e0-b96df970d072:77877319-bb3c-408f-858b-b91a3f6755d5
+[I 2025-03-29 16:15:34.646 ServerApp] Connecting to kernel a4c78fb7-1ce5-4801-a3e0-b96df970d072.
+[I 2025-03-29 16:15:34.646 ServerApp] Restoring connection for a4c78fb7-1ce5-4801-a3e0-b96df970d072:77877319-bb3c-408f-858b-b91a3f6755d5
+[I 2025-03-29 16:17:31.388 ServerApp] Saving file at /src/jupyter/report_generator.ipynb
