@@ -5,8 +5,13 @@ from logger import LOG  # 导入日志模块
 
 class LLM:
     def __init__(self):
+         # 将这里换成你在便携AI聚合API后台生成的令牌
+        os.environ	[	"OPENAI_API_KEY"	] = "sk-Y9P2ZYbyYK0HNbjBjj5s6yddubVCZ36WqCbXEVcYXSQMiaEm"
+        # 这里将官方的接口访问地址替换成便携AI聚合API的入口地址
+        os.environ	[	"OPENAI_BASE_URL"	] = "https://www.dmxapi.com/v1"
+        self.client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
         # 创建一个OpenAI客户端实例
-        self.client = OpenAI()
+        #self.client = OpenAI()
         # 从TXT文件加载提示信息
         with open("prompts/report_prompt.txt", "r", encoding='utf-8') as file:
             self.system_prompt = file.read()
